@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello React</title>
+        <style>
+            ul{
+                list-style: none;
+                text-decoration: none;
+            }
+            li{
+
+            }
+            a{
+             text-decoration: none;
+            }
+        .container {
+            margin: 0 auto;
+            width: 80%;
+        }
+
+
+        .general-list{
+            list-style: none;
+            -webkit-padding-start: 0px;
+        }
+
+        .general-list > li{
+            display: inline-block;
+            width: 100px;
+            margin-left: 20px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            background: whitesmoke;
+            border-radius: 10px;
+        }
+
+        .general-list > li:hover{
+            background: cornflowerblue;
+            transition: 1.5s linear;
+        }
+
+        .home{
+            background-color: teal ;
+            }
+        .about{
+            background-color: coral ;
+        }
+
+        .posts{
+            background-color: palegreen ;
+            position: relative;
+            min-height: 200px;
+
+        }
+        .posts-list{
+            background-color: palegreen ;
+            position: absolute;
+            width: 30%;
+            padding-left: 10px;
+            display: inline-block;
+
+        }
+
+        .each-post{
+            background-color: wheat ;
+            position: absolute;
+            width: 65%;
+            right: 30px;
+            padding-left: 10px;
+            top: 40px;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div id="app"></div>
+
+
+
+        <script src="bundle.js"></script>
+    </body>
+</html>
